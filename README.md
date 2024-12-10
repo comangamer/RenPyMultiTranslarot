@@ -74,12 +74,12 @@ translate german strings:
     new "[Translated text english->german]"
 ```
 In other words, the program adds a # sign to a line with English translation and creates a line below with translation into the selected language.
-The program takes RenPy syntax into account as much as I needed it to. It takes into account the names of the characters speaking, it takes into account possible variables within lines of text enclosed in square brackets, like [current year].
+The program takes RenPy syntax into account as much as I needed it to. It takes into account the names of the characters speaking, it takes into account possible variables within lines of text enclosed in square brackets, like [current year] or {w} pharase separation.
 
-+ How to use?
+# How to use? (.py and .exe)
 - Copy the folder with the translation to English and change its name to the target language. Let it be 'french' as an example
-- Place the file “translate CD v11.py” in the 'french' folder containing the .rpy files of English translations
-- Run the program (I do it through IDLE Shell)
+- Place the file "translate CD v11.exe" (or “translate CD v11.py”) in the 'french' folder containing the .rpy files of English translations
+- Run the program (Use f.e. IDLE Shell for .py script)
 - The program will prompt you to select the target language (in our case french).
 - The program will offer you to replace 'translation english' with 'translation french' (I recommend you to agree, so you don't have to change it yourself).
 - The program offers you the choice to translate a specific file or all files in the folder (I recommend to translate all files at once).
